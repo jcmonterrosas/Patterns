@@ -3,7 +3,7 @@ package decorator.pattern;
 
   public class Milk extends ComponentDecorator
     {
-                
+        
         public Milk(Coffee c)
         {          
             super(c);

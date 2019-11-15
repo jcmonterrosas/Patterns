@@ -5,7 +5,7 @@ package decorator.pattern;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("\njust coffee");
+        System.out.println("just coffee");
         Coffee coffee = new BaseCoffee();
         System.out.println(coffee.CalculateSophistication());
         

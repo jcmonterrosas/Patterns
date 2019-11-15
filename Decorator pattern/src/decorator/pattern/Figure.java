@@ -12,6 +12,6 @@ public class Figure extends ComponentDecorator
         @Override
         public String CalculateSophistication()
         {
-            return this.getCoffee().CalculateSophistication() + 4;
+            return "Advanced";
         }
     }
